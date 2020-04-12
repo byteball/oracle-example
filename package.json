@@ -1,0 +1,28 @@
+{
+	"name": "oracle-example",
+	"description": "Obyte oracle example",
+	"author": "Obyte",
+	"version": "1.0.0",
+	"main": "start.js",
+	"keywords": [
+		"obyte",
+		"oracle",
+		"DAG",
+		"byteball",
+		"price feed",
+		"data feed"
+	],
+	"license": "MIT",
+	"repository": {
+		"url": "git://github.com/byteball/oracle-example.git",
+		"type": "git"
+	},
+	"bugs": {
+		"url": "https://github.com/byteball/oracle-example/issues"
+	},
+	"dependencies": {
+		"headless-obyte": "git+https://github.com/byteball/headless-obyte.git",
+		"ocore": "git+https://github.com/byteball/ocore.git",
+		"node-fetch": "^2.6.0"
+	}
+}

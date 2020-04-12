@@ -1,0 +1,1 @@
+*/15 * * * * cd oracle-example; node check_daemon.js 1>>~/.config/oracle-example/check_daemon.log 2>>~/.config/oracle-example/check_daemon.err
